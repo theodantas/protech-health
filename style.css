@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px 0px 20px 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.logo-nome {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nome_logo {
+    margin-left: 10px; 
+	font-family: lilita one, sans-serif;
+	font-size: 10px;
+}
+
+.menu {
+    background-color: #37556D;
+    padding: 15px;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu a {
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: #93C6DB;
+    transition: 0.5s;
+}
+
+.content {
+    margin-top: 50px;
+	margin-left:40px;
+}
+.content h1{
+	font-family: lilita one, sans-serif;
+	font-size:90px;
+}
+
+.content p{
+	font-family: roboto, sans-serif;
+}
+
+.canto-direito {
+	position:absolute;
+	top:90px;
+	right:0px;
+    width: 300px; /* ajuste conforme necessário */
+    height: 800px; /* ajuste conforme necessário */
+}
+
+.canto-direito img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo-nome {
+        justify-content: center;
+    }
+    .menu {
+        margin-top: 20px;
+		border-radius: 25px;
+    }
+    .menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
