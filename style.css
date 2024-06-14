@@ -21,7 +21,7 @@
 }
 
 .logo img {
-    width: 50px;
+    width: 40px;
 }
 
 .nome_logo {
@@ -53,12 +53,11 @@
     text-decoration: none;
     color: white;
     padding: 10px;
-    transition: 0.5s;
 }
 
 .menu a:hover {
-    color: #93C6DB;
-    transition: 0.5s;
+    background-color: #eee;
+    border-radius: 20px;
 }
 
 .content {
@@ -78,8 +77,7 @@
 	position:absolute;
 	top:90px;
 	right:0px;
-    width: 300px; /* ajuste conforme necessário */
-    height: 800px; /* ajuste conforme necessário */
+    width: 30%; 
 }
 
 .canto-direito img {
@@ -87,6 +85,10 @@
 }
 
 @media screen and (max-width: 768px) {
+	.container {
+		padding:0px;
+		padding-top:20px;
+	}
     .header {
         flex-direction: column;
         text-align: center;
@@ -102,4 +104,21 @@
         display: block;
         margin: 10px 0;
     }
+	.content {
+		margin-top: 180px;
+		margin-left:0px;
+		text-align:center;
+		
+	}
+	.content h1 {
+		font-size:40px;
+	}
+	.content p{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	
+	.canto-direito {
+		display:none;
+	}
 }
