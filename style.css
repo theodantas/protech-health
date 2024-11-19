@@ -40,20 +40,9 @@ video {
 	height: 60px;
 }
 
-.logo-nome {
-	color: white;
-	display: flex;
-	align-items: center;
-}
-
 .logo img {
-	width: 40px;
-}
-
-.nome_logo {
-	margin-left: 10px;
-	font-family: lilita one, sans-serif;
-	font-size: 10px;
+	width: 70px;
+	margin-left: 15px;
 }
 
 .menu {
@@ -240,8 +229,8 @@ video {
 	font-family: Roboto, sans-serif;
 	font-size: 15px;
 	margin-top: 5px;
-	text-align: left;
 	text-align: justify;
+	font-weight: normal;
 }
 
 button {
@@ -326,7 +315,6 @@ button {
 
 .conteudo p {
 	font-family: roboto, sans-serif;
-	font-size: 17px;
 	padding: 0px 25px;
 }
 
@@ -428,7 +416,117 @@ button {
 	transition: opacity 2s ease, transform 2s ease;
 }
 
+.title_mascotes h3{
+	color: #37556D;
+	text-align: center;
+	font-size: 45px;
+	font-family: lilita one, sans-serif;
+	margin-top: 20px;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity 2s ease, transform 2s ease;
+	}
+.mascotes {
+    display: flex;
+    justify-content: space-around;
+	background-color:#37556D;
+    flex-wrap: wrap; 
+    padding: 20px;
+	margin-top:15px;
+}
 
+.mascotes .bloco {
+	display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    padding: 25px; 
+    width: 300px;
+    margin: 10px; 
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity 2s ease, transform 2s ease;
+}
+
+.mascotes .bloco h2{
+	font-size:20px;
+	font-family: lilita one, sans-serif;
+	color: silver;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity 2s ease, transform 2s ease;
+}
+.mascotes .bloco p{
+	font-family: roboto, sans-serif;
+	text-align: justify;
+	color:silver;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity 2s ease, transform 2s ease;
+}
+
+.mascotes .foto {
+    width: 100px; /* Largura da imagem */
+    height: 100px; /* Altura da imagem */
+    object-fit: cover; /* Corta a imagem para se ajustar ao tamanho */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+	opacity: 0;
+	transform: translateY(50px);
+	transition: opacity 2s ease, transform 2s ease;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding: 35px;
+  height:300px;
+}
+
+.app .text-container {
+  flex: 1;
+  text-align:right;
+  opacity: 0; /* Estado inicial para a animação */
+  transform: translateX(-50px); /* Movimento inicial para a esquerda */
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.app .text-container h1 {
+  color: #37556D;
+	font-size: 45px;
+	font-family: lilita one, sans-serif;
+}
+
+.app .text-container p {
+  font-family: roboto, sans-serif;
+	color:black;
+  margin-bottom: 10px;
+}
+
+.app .store-buttons img {
+  width: 150px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.app .store-buttons img:hover {
+  transform: scale(1.05);
+}
+
+.app .image-container {
+	height:100%;
+  flex: 1;
+  text-align: left;
+  opacity: 0; /* Initial state for animation */
+  transform: translateX(50px); /* Move right initially */
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.app .image-container img {
+  height: 100%;
+}
 
 
 
@@ -487,8 +585,8 @@ button {
 		text-align: center;
 	}
 
-	.logo-nome {
-		justify-content: center;
+	.logo img {
+		margin-left: 0px;
 	}
 
 	.menu {
@@ -498,7 +596,7 @@ button {
 
 	.menu li {
 		display: block;
-		margin: 10px 0;
+		margin: 5px 0;
 		font-size: 12px;
 		padding: 5px;
 	}
