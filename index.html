@@ -19,15 +19,13 @@
 
 <body>
 
-	<div class="container">
+	<div class="topo">
 		<video autoplay muted repeat>
 			<source src="img/fund.mp4">
 		</video>
 		<div class="header">
-			<div class="logo-nome">
-				<div class="logo">
-					<img src="img/logo_protech.png" alt="Logo da Empresa">
-				</div>
+			<div class="logo">
+				<img src="img/logo_protech.png" alt="Logo da Empresa">
 			</div>
 			<div class="menu">
 				<ul>
@@ -39,7 +37,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="content">
+		<div class="titulo">
 			<h1>ProTech Health</h1>
 			<p>Simplificando escolhas alimentares e garantindo segurança</p>
 		</div>
@@ -56,70 +54,76 @@
 				eficiente, ágil e versátil.</p>
 		</div>
 	</div>
-	
+
 	<div class="safebite" id="safebite">
 		<div class="img_safebite">
 			<img src="img/safebite.png">
 		</div>
 		<div class="text_safebite">
 			<h3>O SafeBite</h3>
-			<p>é um aplicativo que ajuda pessoas com alergias alimentares, intolerâncias, hipertensão e diabetes a fazerem escolhas seguras ao escanear o código de barras dos alimentos, ele simplifica informações técnicas e alerta sobre substâncias prejudiciais.</p>
+			<p>é um aplicativo que ajuda pessoas com alergias alimentares, intolerâncias, hipertensão e diabetes a
+				fazerem escolhas seguras ao escanear o código de barras dos alimentos, ele simplifica informações
+				técnicas e alerta sobre substâncias prejudiciais.</p>
 		</div>
 	</div>
-	
+
 	<div class="sobre" id="sobre">
 		<div class="img_sobre">
 			<img src="img/sobre.png">
 		</div>
 		<div class="text_sobre">
 			<h3>Somos</h3>
-			<p>futuros técnicos em desenvolvimento de sistemas, com uma iniciativa inovadora de desenvolver nosso projeto
-				SafeBite, a qual criamos para o nosso Trabalho de Conclusão de Curso (TCC). Portanto, o projeto também irá
-				desempenhar um papel avaliativo para os nossos conhecimentos tecnológicos e organizacionais, entre outros
+			<p>futuros técnicos em desenvolvimento de sistemas, com uma iniciativa inovadora de desenvolver nosso
+				projeto
+				SafeBite, a qual criamos para o nosso Trabalho de Conclusão de Curso (TCC). Portanto, o projeto também
+				irá
+				desempenhar um papel avaliativo para os nossos conhecimentos tecnológicos e organizacionais, entre
+				outros
 				obtidos durantes as aulas e experiências externas.</p>
 		</div>
 	</div>
 
-	<div class="carousel-container">
+	<div class="carrossel">
 		<h1>Conheça Nossa Equipe<h1>
-				<button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
-				<div class="carousel">
-					<div class="person">
+				<button class="voltar" onclick="moveCarousel(-1)">&#10094;</button>
+				<div class="carrossel_integrantes">
+					<div class="integrantes">
 						<img src="img/gabrielly.png">
 						<h3>Gabrielly Marquez</h3>
-						<p>Exerce o cargo de CHRO gerencia todos os aspectos relacionados ao capital humano da empresa,
+						<p>Exerce o cargo de CHRO (Chief Human Resources Officer), gerencia todos os aspectos
+							relacionados ao capital humano da empresa,
 							incluindo recrutamento, treinamento, desenvolvimento e cultura organizacional.
-						<p>
+						</p>
 					</div>
-					<div class="person">
+					<div class="integrantes">
 						<img src="img/guilherme.png">
 						<h3>Guilherme Neri</h3>
 						<p>Exerce o cargo de CCO (Chief Commercial Officer), liderando as estratégias comerciais da
 							empresa para aumentar vendas e participação de mercado, supervisionando as equipes de vendas
 							e marketing, e colaborando com outros departamentos.</p>
 					</div>
-					<div class="person">
+					<div class="integrantes">
 						<img src="img/luana.png">
 						<h3>Luana Campos</h3>
 						<p>Exerce o cargo de CMO (Chief Marketing Officer) O CMO lidera as estratégias de marketing da
 							empresa, incluindo branding, publicidade e análise de mercado. Seu foco é aumentar a
 							visibilidade da marca e impulsionar as vendas.</p>
 					</div>
-					<div class="person">
+					<div class="integrantes">
 						<img src="img/matheus.png">
 						<h3>Matheus Brasil</h3>
 						<p>Exerce o cargo de CEO (Chief Executive Officer) O CEO é o principal executivo da empresa,
 							responsável por definir a visão e a direção estratégica. Ele supervisiona todas as operações
 							e toma decisões de alto nível que afetam o futuro da organização.</p>
 					</div>
-					<div class="person">
+					<div class="integrantes">
 						<img src="img/rhayssa.png">
 						<h3>Rhayssa dos Santos</h3>
 						<p>Exerce o cargo de CTO (Chief Technology Officer) O CTO é responsável pela estratégia
 							tecnológica da empresa, supervisão do desenvolvimento de produtos e inovações. Ele garante
 							que a tecnologia utilizada esteja alinhada com os objetivos de negócios.</p>
 					</div>
-					<div class="person">
+					<div class="integrantes">
 						<img src="img/theo.png">
 						<h3>Théo Dantas</h3>
 						<p>Exerce o cargo de COO (Chief Operating Officer) O COO é responsável pelas operações diárias
@@ -128,9 +132,9 @@
 							eficiência e crescimento.</p>
 					</div>
 				</div>
-				<button class="next" onclick="moveCarousel(1)">&#10095;</button>
+				<button class="ir" onclick="moveCarousel(1)">&#10095;</button>
 	</div>
-	<div class="tela">
+	<div class="pilares">
 		<div class="coluna">
 			<div class="conteudo">
 				<img src="img/missao.png">
@@ -162,66 +166,80 @@
 			</div>
 		</div>
 	</div>
-	<div class="title_depoimentos" id="depoimentos"><h3>Depoimentos</h3></div>
+	<div class="titulo_depoimentos" id="depoimentos">
+		<h1>Depoimentos</h1>
+	</div>
 	<div class="depoimentos">
-        <div class="bloco">
-            <img src="img/bete.png" class="foto">
-            <h2>Bete</h2>
-            <p>"Com a minha idade e a pressão alta, evitar o sal é uma questão de saúde. Antes, eu perdia muito
-			tempo no mercado lendo os rótulos, e às vezes ainda ficava na dúvida. Agora, com o aplicativo, é só
-			escanear o código de barras e ele já me avisa se o alimento tem muito sódio. Sinto que estou cuidando
-			melhor da minha saúde e isso me dá mais tranquilidade."</p>
-        </div>
-        <div class="bloco">
-            <img src="img/rodrigo.png" class="foto">
-            <h2>Rodrigo</h2>
-            <p>"Descobri o aplicativo por recomendação do meu médico, e ele tem sido essencial no meu dia a dia. 
-			Como tenho diabetes, preciso monitorar o açúcar em tudo o que como, e o scanner do código de barras 
-			me ajuda a ver rapidamente se o produto é adequado ou não. Isso tem facilitado muito as compras e o 
-			planejamento das minhas refeições. Recomendo para quem precisa manter um controle rigoroso da alimentação."</p>
-        </div>
-        <div class="bloco">
-            <img src="img/flavia.png" class="foto">
-            <h2>Flávia</h2>
-            <p>"Sempre tive medo de comprar produtos novos por causa da minha alergia a amendoim. O aplicativo me trouxe 
-			segurança nas compras. Ele avisa imediatamente se o produto tem algum risco de contaminação ou ingredientes 
-			perigosos para mim. Além disso, posso adicionar minhas restrições alimentares, e ele sempre me alerta quando 
-			algo não é seguro. Simplificou muito a minha vida."</p>
-        </div>
-    </div>
-	
-	<div class="title_mascotes" id="mascotes"><h3>Nossos Mascotes</h3></div>
+		<div class="bloco">
+			<img src="img/bete.png" class="foto">
+			<h2>Bete</h2>
+			<p>"Com a minha idade e a pressão alta, evitar o sal é uma questão de saúde. Antes, eu perdia muito
+				tempo no mercado lendo os rótulos, e às vezes ainda ficava na dúvida. Agora, com o aplicativo, é só
+				escanear o código de barras e ele já me avisa se o alimento tem muito sódio. Sinto que estou cuidando
+				melhor da minha saúde e isso me dá mais tranquilidade."</p>
+		</div>
+		<div class="bloco">
+			<img src="img/rodrigo.png" class="foto">
+			<h2>Rodrigo</h2>
+			<p>"Descobri o aplicativo por recomendação do meu médico, e ele tem sido essencial no meu dia a dia.
+				Como tenho diabetes, preciso monitorar o açúcar em tudo o que como, e o scanner do código de barras
+				me ajuda a ver rapidamente se o produto é adequado ou não. Isso tem facilitado muito as compras e o
+				planejamento das minhas refeições. Recomendo para quem precisa manter um controle rigoroso da
+				alimentação."</p>
+		</div>
+		<div class="bloco">
+			<img src="img/flavia.png" class="foto">
+			<h2>Flávia</h2>
+			<p>"Sempre tive medo de comprar produtos novos por causa da minha alergia a amendoim. O aplicativo me trouxe
+				segurança nas compras. Ele avisa imediatamente se o produto tem algum risco de contaminação ou
+				ingredientes
+				perigosos para mim. Além disso, posso adicionar minhas restrições alimentares, e ele sempre me alerta
+				quando
+				algo não é seguro. Simplificou muito a minha vida."</p>
+		</div>
+	</div>
+
+	<div class="titulo_mascotes" id="mascotes">
+		<h1>Nossos Mascotes</h1>
+	</div>
 	<div class="mascotes">
-        <div class="bloco">
-            <img src="img/safeguard.png" class="foto">
-            <h2>SafeGuard</h2>
-            <p>Saudações! Eu sou o SafeGuard, o mascote principal do SafeBite. Minha função é guiá-lo com uma linguagem equilibrada, combinando clareza com algumas informações técnicas. Estou aqui para assegurar que você tenha uma experiência informativa e agradável.</p>
-        </div>
-        <div class="bloco">
-            <img src="img/cute.png" class="foto">
-            <h2>Cute</h2>
-            <p>Oiê! Eu sou a Cutie, sua amiga fofinha do SafeBite! Estou aqui para tornar tudo mais fácil e simples. Minha missão é explicar tudinho sobre segurança alimentar de um jeito que todo mundo entende. Vamos aprender juntos e se divertir bastante!</p>
-        </div>
-        <div class="bloco">
-            <img src="img/troy.png" class="foto">
-            <h2>Troy</h2>
-            <p>Olá, eu sou o Troy, o especialista técnico do SafeBite. Estou aqui para fornecer informações detalhadas e precisas sobre segurança alimentar. Minha linguagem é robusta e técnica, para garantir que você receba todas as informações necessárias com a máxima precisão.</p>
-        </div>
-    </div>
-	
+		<div class="bloco">
+			<img src="img/safeguard.png" class="foto">
+			<h2>SafeGuard</h2>
+			<p>Saudações! Eu sou o SafeGuard, o mascote principal do SafeBite. Minha função é guiá-lo com uma linguagem
+				equilibrada, combinando clareza com algumas informações técnicas. Estou aqui para assegurar que você
+				tenha uma experiência informativa e agradável.</p>
+		</div>
+		<div class="bloco">
+			<img src="img/cute.png" class="foto">
+			<h2>Cute</h2>
+			<p>Oiê! Eu sou a Cutie, sua amiga fofinha do SafeBite! Estou aqui para tornar tudo mais fácil e simples.
+				Minha missão é explicar tudinho sobre segurança alimentar de um jeito que todo mundo entende. Vamos
+				aprender juntos e se divertir bastante!</p>
+		</div>
+		<div class="bloco">
+			<img src="img/troy.png" class="foto">
+			<h2>Troy</h2>
+			<p>Olá, eu sou o Troy, o especialista técnico do SafeBite. Estou aqui para fornecer informações detalhadas e
+				precisas sobre segurança alimentar. Minha linguagem é robusta e técnica, para garantir que você receba
+				todas as informações necessárias com a máxima precisão.</p>
+		</div>
+	</div>
+
 	<div class="app" id="app">
-    <div class="text-container">
-      <h1>Baixe agora</h1>
-      <p>e fique consciente da sua alimentação</p>
-      <div class="store-buttons">
-        <a href="https://www.apple.com/br/app-store/" target="_blank" title="Baixe já"><img src="img/appstore.png"></a>
-        <a href="https://play.google.com/" target="_blank" title="Baixe já"><img src="img/googleplay.png"></a>
-      </div>
-    </div>
-    <div class="image-container">
-      <img src="img/celular.gif" alt="Imagem de um celular">
-    </div>
-  </div>
+		<div class="app_conteudo">
+			<h1>Baixe agora</h1>
+			<p>e fique consciente da sua alimentação</p>
+			<div class="baixar">
+				<a href="https://www.apple.com/br/app-store/" target="_blank" title="Baixe já"><img
+						src="img/appstore.png"></a>
+				<a href="https://play.google.com/" target="_blank" title="Baixe já"><img src="img/googleplay.png"></a>
+			</div>
+		</div>
+		<div class="app_imagem">
+			<img src="img/celular.gif" alt="Imagem de um celular">
+		</div>
+	</div>
 
 	<footer>
 		<div class="rodape">
