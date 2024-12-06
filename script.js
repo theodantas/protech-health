@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //Animação De Entradas 
 document.addEventListener('DOMContentLoaded', () => {
-  const animationElements = document.querySelectorAll('.app .app_imagem, .app .app_conteudo, .pilares .coluna .conteudo h1, .pilares .coluna .conteudo p, .pilares .coluna .conteudo img, .titulo_depoimentos h1, .titulo_mascotes h1, .depoimentos .bloco, .depoimentos .bloco p, .safebite, .sobre, .proposito, .depoimentos .bloco h2, .depoimentos .foto, .mascotes .bloco, .mascotes .bloco p, .mascotes .bloco h2, .mascotes .foto');
+  const animationElements = document.querySelectorAll('.app .app_imagem, .app .app_conteudo, .pilares .coluna .conteudo h1, .pilares .coluna .conteudo p, .pilares .coluna .conteudo img, .titulo_depoimentos h1, .titulo_mascotes h1, .depoimentos .bloco, .depoimentos .bloco p, .safebite, .sobre, .depoimentos .bloco h2, .depoimentos .foto, .mascotes .bloco, .mascotes .bloco p, .mascotes .bloco h2, .mascotes .foto');
 
   const onScroll = () => {
     const windowHeight = window.innerHeight;

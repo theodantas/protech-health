@@ -110,9 +110,16 @@ body {
 	align-items: center;
 	width: 100%;
 	height: 400px;
-	transform: translateX(-50%);
-	transition: opacity 2s ease, transform 2s ease;
-	opacity: 0;
+  animation: entrar 2.5s forwards; /* Executa a animação uma vez e para no final */
+}
+
+@keyframes entrar {
+  0% {
+    transform: translateX(-100%); /* Fora da tela à esquerda */
+  }
+  100% {
+    transform: translateX(0); /* Posição final */
+  }
 }
 
 .proposito .img_proposito {
@@ -581,6 +588,15 @@ body {
 	}
 }
 
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+
 @media screen and (max-width: 768px) {
 	.topo {
 		padding: 0px;
@@ -698,5 +714,12 @@ body {
 		flex-direction: column;
 		align-items: center;
 		text-align: justify;
+	}
+	.app .baixar img {
+		width: 100px;
+	}
+	.app .app_imagem, .app .app_conteudo, .titulo_mascotes h1, .depoimentos .bloco, .depoimentos .bloco p, .safebite, .sobre, .depoimentos .bloco h2, .depoimentos .foto, .mascotes .bloco, .mascotes .bloco p, .mascotes .bloco h2, .mascotes .foto{
+		transition:none;
+		transform:none;
 	}
 }
