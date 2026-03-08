@@ -4,13 +4,11 @@
 
 <h4 align="center"><a href="https://theodantas.github.io/ProTech_Health/">Confira o projeto aqui</a></h4>
 
-
 ---
 
 ## 📌 Sobre o Projeto
 
 Projeto desenvolvido com o intuito de apresentar o aplicativo SafeBite, uma solução tecnológica criada para promover segurança alimentar e escolhas mais conscientes, auxiliando pessoas com alergias, intolerâncias ou restrições alimentares.
----
 
 ## 🛠 Tecnologias utilizadas:
 
