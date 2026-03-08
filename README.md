@@ -2,7 +2,7 @@
 
 ![Imagem do projeto finalizado](img/preview.png)
 
-<h4 align="center"><a href="https://theodantas.github.io/ProTech_Health/">Confira o projeto aqui</a></h4>
+<h4 align="center"><a href="https://theodantas.github.io/protech-health/">Confira o projeto aqui</a></h4>
 
 ---
 
