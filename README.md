@@ -1,6 +1,6 @@
 <h1 align="center">ProTech Health – SafeBite 🛡️</h1>
 
-![Imagem do projeto finalizado](img/preview.png)
+![Imagem do projeto finalizado](img/preview.gif)
 
 <h4 align="center"><a href="https://theodantas.github.io/protech-health/">Confira o projeto aqui</a></h4>
 
